@@ -15,6 +15,7 @@ router.get("/login/:login/password/:password/employeeID/:_id", (req, res) => {
             res.send("Login yoki parol tasdiqlanmadi")
         }
     }else{
+        
         res.send("Login yoki parol kiritilmadi")
     }
 })
