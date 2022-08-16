@@ -1,0 +1,17 @@
+{
+  "name": "employees_edit",
+  "version": "0.0.1",
+  "description": "Bu yangi avlod xodimlari ma'lumotlarini o'zgartirish uchun interfeys",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shamshod Ne'matullayev",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2"
+  }
+}
