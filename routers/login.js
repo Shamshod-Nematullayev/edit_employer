@@ -2,9 +2,9 @@ const User = require("../models/User")
 
 const router = require("express").Router()
 
-// router.get('/', (req, res) => {
-//     res.render('login.ejs')
-// })
+router.get('/', (req, res) => {
+    res.render('login.ejs')
+})
 
 router.post("/api/auth/login",async (req, res) => {
     const {login, password} = req.body

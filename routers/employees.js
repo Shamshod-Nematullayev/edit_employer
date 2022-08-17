@@ -1,7 +1,7 @@
 const router = require("express").Router()
 const User = require("../models/User")
 
-router.get("/login/:login/password/:password/employeeID/:_id", (req, res) => {
+router.get("/login/:login/password/:password/employeeID/:_id",async (req, res) => {
     const {login, password, _id} = req.params
     
     if(login && password){
