@@ -8,7 +8,7 @@ router.get("/login/:login/password/:password/employeeID/:_id", (req, res) => {
         if(login == process.env.LOGIN && password == process.env.PASSWORD){
             const users = await User.findById(_id)
                 .then(user => {
-                    res.json(res.json({user, admin: {login, password}}))
+                    res.json({user, admin: {login, password}})
                 })
             
         }else{
