@@ -16,7 +16,8 @@ const mongoose = require("mongoose")
         bankcard: String,
         phone_numbers: String,
         sharif: String,
-        sentabrdan: String
+        sentabrdan: String,
+        joining: String
     })
 
     

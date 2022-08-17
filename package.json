@@ -4,7 +4,7 @@
   "description": "Bu yangi avlod xodimlari ma'lumotlarini o'zgartirish uchun interfeys",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index"
   },
   "author": "Shamshod Ne'matullayev",
   "license": "ISC",
